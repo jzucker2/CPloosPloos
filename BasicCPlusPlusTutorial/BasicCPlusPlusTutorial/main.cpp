@@ -7,9 +7,18 @@
 //
 
 #include <iostream>
+#include "MyClass.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
+    
+    // now start tutorial
+    
+    MyClass m;
+    m.x = 10;
+    m.y = 20;
+    m.foo();
+    
     return 0;
 }
